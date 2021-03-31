@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB - CSS</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+      color: rgb(255, 255, 255);
+      background: rgb(184, 184, 184);
+      text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+      --darkreader-inline-color:#e8e6e3;
+      --darkreader-inline-bgimage: initial;
+      --darkreader-inline-bgcolor:#404548;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:150px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+      padding-right: 33px;
+    }
+    .a {
+    float: left;
+    }
+    #article{
+    text-align: justify;
+    }
+    a:hover {
+     background-color: aquamarine;
+    }
+  </style>
+</head>
+<body bgcolor="">
+  <h1><a href="index.html">TURBOKOREA ENS Inc.'s Secret Web</a></h1>
+  <div id="grid">
+    <ol style="width: 190px;">
+      <li><a href="index.html">High-Speed Turbo Blowers</a></li>
+      <li><a href="impeller.html">Centrifugal impeller​</a></li>
+      <li><a href="bearings.html">Air bearing (Foil bearing)</a></li>
+      <li><a href="motor.html">High-speed permanent-magnet synchronous motor (PMSM)</a></li>
+      <li><a href="control.html">Controller (Microcontrollers & PLC)</a></li>
+      <li><a href="vfd.html">Power inverter (Electric motor speed control​)</a></li>
+      <li><a href="Specifications.html">Specifications by model</a></li>
+      <li><a href="graph.html">Performance curve graph</a></li>
+      <li><a href="photo.html">Product installation photo</a></li>
+    </ol>
+    <div id="article" style="padding-left: 80px;">
+        <h2 style="padding-left: 50px;">Centrifugal impeller​</h2>
+        <p style="padding-left: 50px;">
+          <img src="impeller.jpg" decoding="async" width="300"  class="a" style="padding-right: 25px;padding-bottom: 10px;padding-top: 10px;">
+          The key component that makes a compressor centrifugal is the centrifugal impeller, Figure 0.1, which contains a rotating set of vanes (or blades) that gradually raises the energy of the working gas. This is identical to an axial compressor with the exception that the gases can reach higher velocities and energy levels through the impeller's increasing radius. In many modern high-efficiency centrifugal compressors the gas exiting the impeller is traveling near the speed of sound. Impellers are designed in many configurations including "open" (visible blades), "covered or shrouded", "with splitters" (every other inducer removed) and "w/o splitters" (all full blades). Both Figures 0.1 and 3.1 show open impellers with splitters. Most modern high efficiency impellers use "backsweep" in the blade shape. Euler's pump and turbine equation, plays an important role in understanding impeller performance.
+        </p>
+      </div>
+  </div>
+  <p class="copyright">Copyright ⓒ <strong>turbokorea.com</strong> All rights reserved.</p>
+  </body>
+  </html>

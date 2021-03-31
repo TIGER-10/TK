@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB - CSS</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+      color: rgb(255, 255, 255);
+      background: rgb(184, 184, 184);
+      text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+      --darkreader-inline-color:#e8e6e3;
+      --darkreader-inline-bgimage: initial;
+      --darkreader-inline-bgcolor:#404548;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:150px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+      padding-right: 33px;
+    }
+    .a {
+    float: left;
+    }
+    #article{
+    text-align: left;
+    }
+    a:hover {
+     background-color: aquamarine;
+    }
+  </style>
+</head>
+<body bgcolor="">
+  <h1><a href="index.html">TURBOKOREA ENS Inc.'s Secret Web</a></h1>
+  <div id="grid">
+    <ol style="width: 190px;">
+      <li><a href="index.html">High-Speed Turbo Blowers</a></li>
+      <li><a href="impeller.html">Centrifugal impeller​</a></li>
+      <li><a href="bearings.html">Air bearing (Foil bearing)</a></li>
+      <li><a href="motor.html">High-speed permanent-magnet synchronous motor (PMSM)</a></li>
+      <li><a href="control.html">Controller (Microcontrollers & PLC)</a></li>
+      <li><a href="vfd.html">Power inverter (Electric motor speed control​)</a></li>
+      <li><a href="Specifications.html">Specifications by model</a></li>
+      <li><a href="graph.html">Performance curve graph</a></li>
+      <li><a href="photo.html">Product installation photo</a></li>
+    </ol>
+    <div id="article" style="padding-left: 80px;">
+        <h2 style="padding-left: 50px;">Specifications by model</h2>
+        <p style="padding-left: 50px;">
+          <img src="spec.png" decoding="async" width="600" style="padding-right: 25px;padding-bottom: 10px;padding-top: 10px;">
+        </p>
+        <p style="padding-left: 50px;">
+          This is Specifications.
+        </p>
+      </div>
+  </div>
+  <p class="copyright">Copyright ⓒ <strong>turbokorea.com</strong> All rights reserved.</p>
+  </body>
+  </html>
